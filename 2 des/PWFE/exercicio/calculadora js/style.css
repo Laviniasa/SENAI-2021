@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito;
+    margin-top:13vw;
+}
+h1{
+    font-size: 1.5vw;
+    transition: 0.5s;
+    text-align:center;
+    color:gray;
+    padding:0;
+    margin: 0;
+}
+.alignment{
+    margin-top: 3vh;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+}
+input {
+    overflow: one;
+    font-family: Nunito;
+    transition: 0.5s;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    text-align: center;
+    width: 15vw;
+    font-size:1.8vw ;
+    border:none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus {
+    outline: none;
+}
+#btn1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right:10px solid gray;
+}
+#btn1:focus{
+    background-color: rgba(78, 209, 226, 0.486);
+}
+#btn2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left:10px solid gray;
+}
+#btn2:focus{
+    background-color: rgba(147, 78, 226, 0.445);
+}
+.sizealignment{
+    margin-top:1.5vw;
+}
+button{
+    transition: 0.5s;
+    font-size:1.8vw;
+    width: 3vw;
+    height: 3vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    color:white;
+    background-color:gray;
+    border:none;
+    border-radius:2vw;
+}
+button:focus{
+    color:rgb(78, 209, 226);
+    background-color: rgb(147, 78, 226);
+}
+button:hover{
+    transition: 0.5s;
+    color:black;
+    background-color: white;
+}

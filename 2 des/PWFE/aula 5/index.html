@@ -1,0 +1,84 @@
+    <html>
+    <head>
+        <title>motoboy</title>
+        <link href="css/style.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        <form class="formPrincipal">
+            <h3>Faça seu Pedido!</h3>
+            <input id="nome" type="text" name="nome" placeholder="Seu nome..." />
+            <input id="endereço" type="text" name="endereço" placeholder="Seu endereço..." />
+            <select id="pedido" type="text" name="pedido" placeholder="Seu pedido..." />
+            <option value=""> [SELECIONE] </option>
+                <option value="X-Burguer"> X-Burguer </option>
+                <option value="X-Salada"> X- Salada </option>
+                <option value="X-Bacon"> X-Bacon </option>
+                <option value="X-Tudo"> X-Tudo </option>
+                <option value="X- Egge"> X-Egge </option>
+            </select>
+            <input type="button" onclick="send();" name="acao" value="Enviar"/>
+            
+        </form>
+        
+        <div class="box_pedido">
+            <h3>Pedido a Caminho!!!!</h3> 
+            <form class="formPedido">
+                <img class="icon" src="img/iconboton.jfif" align="right" onclick="javascript: sendDelivery();"/> 
+                <input id="nome_pedido" type="text" name="nome_pedido" /><br>
+                <input id="endereço_pedido" type="text" name="endereço_pedido"/><br>
+                <input id="pedido_pedido" type="text" name="pedido_pedido"/>
+                
+            </form>
+        </div>
+        <div class="box_entrega">
+            <h3>Pedido Entregue!!!!</h3> 
+            <form class="formEntrega">
+                <img class="icon" src="img/iconcheck.png" align="right"onclick="javascript: sendcheck();"/> 
+                <input id="nome_entrega" type="text" name="nome_entrega" /><br>
+                <input id="endereço_entrega" type="text" name="endereço_entrega"/><br>
+                <input id="pedido_entrega" type="text" name="pedido_entrega"/>
+                
+            </form>
+        </div>
+    x       <script>
+                function send()
+                {
+                    document.getElementById('nome_pedido').value =  document.getElementById('nome').value;
+                    document.getElementById('endereço_pedido').value =  document.getElementById('endereço').value;
+                    document.getElementById('pedido_pedido').value =  document.getElementById('pedido').value;
+
+                    document.getElementById('nome').value = "";
+                    document.getElementById('endereço').value = "";
+                    document.getElementById('pedido').value =  "";
+              
+                }
+                function sendDelivery()
+                {
+                    document.getElementById('nome_entrega').value =  document.getElementById('nome_pedido').value;
+                    document.getElementById('endereço_entrega').value =  document.getElementById('endereço_pedido').value;
+                    document.getElementById('pedido_entrega').value =  document.getElementById('pedido_pedido').value;
+                    
+                    document.getElementById('nome_pedido').value = "";
+                    document.getElementById('endereço_pedido').value = "";
+                    document.getElementById('pedido_pedido').value =  "";
+              
+                }
+                function sendcheck()
+                {
+                    document.getElementById('nome_entrega').value =  
+                    document.getElementById('endereço_entrega').value =  
+                    document.getElementById('pedido_entrega').value =  
+
+                    document.getElementById('nome_entrega').value = "";
+                    document.getElementById('endereço_entrega').value = "";
+                    document.getElementById('pedido_entrega').value =  "";
+              
+                }
+               // var email = document.getElementById('nome')
+               // email.addEventListener('houver'{
+               //     email.style.borderColor = "#000"
+               // };
+        </script>
+    </body>
+</html>
