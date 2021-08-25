@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="refresh" content="10"/>
+		<link rel="sortcut icon" href="img/iconeprova.png"/>
+		<title>noticias</title>
+	</head>
+	<body background="img/backgroud.png">
+		<blockquote>
+			<h1>noticias</h1>
+		

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="refresh" content="10"/>
+		<link rel="sortcut icon" href="img/iconeprova.png"/>
+		<title>noticias.com</title>
+			
+	</head>
+	<body background="img/backgroud.png">
+		<blockquote>
+			<h1>noticias</h1>
+		
+			<img src="img/livroanne.jpg" alt="Livro da Anne" width="250" height="280" align="left" style="margin:10px">		
+			<img src="img/livroanneantigo.jpg" alt="Livro Antigo" width=250 height=280 align="left" style="margin:10px">
+
+			<em> 
+				<p align="justify">Anne of Green Gables é um romance da escritora canadense L. M. Montgomery, publicado em 1908. Foi escrito como ficção para leitores de todas as idades, mas nas últimas décadas tem sido considerado principalmente como literatura infantojuvenil. Ambientado no fim do século XIX, o livro conta as aventuras de Anne Shirley, uma órfã de onze anos que, por engano, acaba por morar com dois irmãos de meia idade, Matthew e Marilla Cuthbert. Os dois vivem em uma fazenda na cidade fictícia de Avonlea, na Ilha do Príncipe Eduardo. Inicialmente, eles pretendiam adotar um pequeno garoto, para que este os auxiliasse com os trabalhos braçais.</p>
+
+				<p align="justify">Desde a primeira publicação, mais de cinquenta milhões de cópias de Anne of Green Gables foram vendidas. O livro foi traduzido para 20 idiomas. Continuações foram escritas por Montgomery e depois da sua morte, em 1942, uma prequela autorizada.</p>
+
+				<p align="justify">A obra já foi adaptada para filme, desenhos animados, séries televisivas live action e peças musicais.</p>
+			</em>
+	
+		
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<h1> Lucy Maud Montgomery</h1>
+			<img src="img/escritora.jpg" alt="some text" width=300 height=400 align="right" style="margin:10px">
+
+			<em>
+				<p align="justify">Lucy Maud Montgomery ,(30 de novembro de 1874 – 24 de abril de 1942), foi uma escritora canadense, mais conhecida como L.M. Montgomery, autora de uma série de romances que teve início com Anne of Green Gables, publicado em 1908.</p>Lucy Maud Montgomery nasceu em Clifton (atualmente New London), Ilha do Príncipe Eduardo em 30 de novembro de 1874. Sua mãe, Clara Woolner Macneill Montgomery, morreu de tuberculose quando Maud tinha 21 meses. Estremecido pela morte da esposa, o pai, Hugh Montgomery, deu a sua custódia para seus avós maternos.Posteriormente, ele mudou para Saskatchewan, quando Maud tinha sete anos, e ela passou a viver com os avós maternos, Alexander Marquis Macneill e Lucy Woolner Macneill, nas proximidades de Cavendish e foi criada por eles de uma forma rigorosa e implacável; sua vida ali foi muito solitária. Apesar de haver condições de relacionamento nos arredores, muitas crianças eram criadas sozinhas, e no caso de Maud, isso lhe proporcionou a invenção de amigos imaginários para lidar com sua solidão, incentivando sua imaginação.Em novembro de 1890, Montgomery publicou seu primeiro trabalho em Charlottetown, Daily Patriot.Ela ficou excitada porque significava sua volta à sua amada Prince Edward Island,em 1891. O retorno para casa "foi um grande alívio para ela, pois sua vida doméstica era infeliz, devido ao fato de ela e sua madrasta, Mary Ann McRae, não se darem bem,e porque, "conta ... Maud, o casamento de seu pai não era feliz". Em 1893, ao se graduar na escola em Cavendish, ela ingressou no “Prince of Wales College”, em Charlottetown. Completando a programação de dois anos em um, ela obteve o certificado de professora. Em 1895 e 1896 estudou literature na Dalhousie University, em Halifax, Nova Escócia. Carreira literária
+Em 1908, Montgomery publicou seu primeiro livro, Anne of Green Gables. Três anos depois, logo após a morte da avó, ela se casou com Ewan (encontrado nas notas e cartas de Montgomery como "Ewan") Macdonald (1870-1943), um ministro presbiteriano, e se mudaram para Ontário, onde ele tinha assumido o cargo de ministro de “St. Paul's Presbyterian Church”, em Leaskdale na atual [Uxbridge]], Ontário, também afiliada à congregação próxima a Zephyr (Ontário). Tiveram três filhos, o segundo dos quais nasceu morto. Os dois outros eram Chester e Stuart.</p>
+
+<p align="justify">O grande aumento de seus escritos em Leaskdale é o resultado de sua necessidade de escapar das dificuldades da vida real.Montgomery sofreu vários períodos de depressão, enquanto tentava lidar com os deveres da maternidade e da vida religiosa, e com os ataques de melancolia religiosa do marido e deterioração da saúde: "Para uma mulher que tinha dado ao mundo a alegria, foi principalmente uma infeliz".Para a maior parte de sua vida, sua escrita foi um grande consolo. Além disso, durante esse tempo, Montgomery esteve envolvida em uma série de "amargas ações com a editora L.C. Page, que se arrastaram até que ela finalmente ganhou a causa, em 1929".</p>
+
+<p align="justify">Montgomery escreveu seus próximos onze livros em Leaskdale, na casa que atualmente é o “Lucy Maud Montgomery Leaskdale Manse Museum”. Em 1926, a família se mudou para o Norval Presbyterian Charge, atualmente Halton Hills, Ontario, onde hoje o Lucy Maud Montgomery Memorial Garden pode ser visto da Highway 7.</p>
+
+<p align="justify">Em 1935, após a aposentadoria do marido, Montgomery mudou-se para Swansea, um subúrbio de Toronto, onde compraram uma casa a que chamaram “Journey's End”, situada em Humber River. Montgomery continuou a escrever, publicando Anne of Windy Poplars em 1936, Jane of Lantern Hill em 1937, e Anne of Ingleside em 1939.</p>
+
+<p align="justify">No ultimo ano de sua vida, Montgomery completou o nono livro com Anne, intitulado The Blythes Are Quoted, que inclui 15 histórias curtas, muitas delas previamente publicadas, que ela revisou para incluir Anne e sua família, principalmente como personagens periféricos; quarenta e um poemas (muitos dos quais publicados anteriormente), que ela atribuiu a Ana e seu filho Walter, que morreu como um soldado na Primeira Guerra Mundial, e com vinhetas da família Blythe discutindo os poemas. Uma versão resumida, em que foram resumidas e reorganizadas as histórias e omitidas todas as vinhetas foi publicada como uma coleção de histórias curtas, The Road to Yesterday, em 1974. Uma edição completa de The Blythes Are Quoted, editada por Benjamin Lefebvre, foi publicado na íntegra pela Viking Canadá, em outubro de 2009.</p></em>
+
+				<h2> Obras</h2>
+
+			<ul>
+				<li>Anne de Green Gables (1908) </li>
+				<li>Anne de Avonlea (1909)</li>
+				<li>Anne da Ilha (1915) </li>
+				<li>Anne de Windy Poplars (1936)</li>
+				<li>Anne e a Casa dos Sonhos (1917)</li>
+				<li>Anne de Ingleside (1939)</li>
+				<li>Vale do Arco-íris (1919) </li>
+				<li>Rilla de Ingleside (1921)</li>
+			</ul>
+		</blockquote>	
+		
+	<center><a href="site.html"><img src="img/botao.png" alt="botao" width="200" height="100"</a></center>
+
+	</body>
+	
+</html>
+	
