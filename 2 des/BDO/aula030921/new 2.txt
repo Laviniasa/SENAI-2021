@@ -1,0 +1,23 @@
+INSERT INTO estados (id, estado) VALUES (DEFAULT, 'SP');
+INSERT INTO estados (estado) VALUES ('SP');
+
+
+
+INSERT INTO cidades (id, cidade, id_estado) VALUES (DEFAULT, 'Tatuape', 1);
+
+
+
+INSERT INTO vendedor (id, id_cidade, nome) VALUES (DEFAULT, 2, 'Alfredo');
+
+
+
+INSERT INTO veiculo (id, veiculo, preco) VALUES (DEFAULT, 'Celta', 19000.50);
+
+
+
+INSERT INTO vendas (id, data, id_vendedor) VALUES (DEFAULT, '2021-09-03', 2)
+
+
+
+SELECT * FROM estados
+SELECT id, estado FROM estados
