@@ -1,0 +1,28 @@
+#jogo {
+    width: 603px;
+    height: 600px;
+    border:solid 3px;
+}
+.linha{
+    height:200px;
+    border-bottom:solid 1px;
+}
+ .casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+.buttom {
+    width: 240px;
+    height: 200px;
+    cursor: pointer;
+    background-image: url("./img/iniciar.png");
+}
+.tamanho_da_imagem {
+    width: 200px;
+    height: 120px;
+}
+
+
+
