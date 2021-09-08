@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>lista de tarefas</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        <form class="formPrincipal">
+            <center>
+                <h3>tarefas</h3>
+                <input id="nome" type="text" name="nome" placeholder="..." />
+                <select id="pedido" type="text" name="pedido" placeholder="Seu pedido..." />
+                    <option value=""> [SELECIONE] </option>
+                    <option value=""> segunda </option>
+                    <option value="a"> terça </option>
+                    <option value=""> quarta </option>
+                    <option value=""> quinta</option>
+                    <option value=""> sexta </option>
+                    <option value=""> sabado </option>
+                    <option value=""> domingo </option>
+                </select>
+                <input type="button" onclick="send();" name="acao" value="Enviar"/>
+            </center>   
+        </form>
+        <center>
+           
+        </center>
+        
+        <div class="box_tarefas">
+            <h3>tarefa pendente!!!!</h3> 
+            <form class="formtarefa">
+                <img class="icon" src="./img/exclamaçao.png" align="right" onclick="javascript: sendtarefa();"/> 
+                <input id="nome_pedido" type="text" name="nome_pedido" /><br>
+                <input id="endereço_pedido" type="text" name="endereço_pedido"/><br>
+                <input id="pedido_pedido" type="text" name="pedido_pedido"/>
+            </form>
+      
+        <script src="index.js"></script>
+    </html>
