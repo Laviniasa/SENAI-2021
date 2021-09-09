@@ -1,0 +1,56 @@
+drop database if exists produto;
+
+create database produto; 
+
+show databases; 
+
+use produto; 
+
+
+create table telefone(
+
+    id_cliente int not null,
+
+    numero_telefone txt(14) not null
+
+);
+
+
+create table clientes(
+
+    id_cliente int auto_increment,
+
+    nome varchar(50) not null primary key,
+
+    nascimento date not null,
+
+    sexo char not null,
+
+    cpf decimal not null
+
+);
+
+create table entregas(
+
+    id_cliente int not null,
+
+    id_entrega int not null,
+
+    dia_semana txt(15) not null,
+
+    quantidade txt(15) not null,
+
+    serie txt(20) not null
+
+);
+
+create table caixas(
+
+    descricao txt(40) not null,
+
+    grupo txt(15),
+
+    caminhoes txt(20)
+
+
+);
