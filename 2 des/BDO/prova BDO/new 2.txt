@@ -1,0 +1,70 @@
+  
+drop database if exists produto;
+
+create database produto; 
+
+show databases; 
+
+use produto; 
+
+
+create table veiculos(
+	
+
+    id_veiculos int not null,
+
+    numero_telefone txt(14) not null,
+	
+	placa_carro txt (7) not null,
+	
+	modelo varchar(50) not null primary key,
+	
+	marca varchar(50) not null primary key,
+	
+	cor txt(15),
+	
+	valor_diaria decimal not null,
+	
+	ano date not null,
+	
+	tipo txt(20) not null,
+	
+);
+
+create table locaçoes(
+
+    id_locaçoes int not null,
+
+    data_retirada date not null,
+
+    data_devoluçao txt(15) not null,
+
+    obs 50) not null primary key,
+	
+    valor_efetivo decimal not null,
+
+
+
+create table clientes(
+
+    id_cliente int auto_increment,
+	
+	cpf decimal not null,
+
+    nome varchar(50) not null primary key,
+	
+	numero_telefone txt(14) not null,
+
+    email varchar(50) not null primary key,
+	
+	endereço txt(20) not null,
+	
+	logradouro decimal not null,
+
+    bairro txt(20) not null,
+
+	cidade_UF txt(20) not null,
+    
+
+);
+
