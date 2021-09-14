@@ -1,0 +1,3 @@
+//
+control shift aspas
+shel = mysql -u root -p
