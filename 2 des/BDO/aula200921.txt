@@ -1,0 +1,38 @@
+xampp
+
+start apachr - mysql
+
+shell
+
+mysql -u root -p
+
+source C:/bcd/agencias.sql;
+
+selec * from modelo (seleciona tipo)
+
+select * from veiculos where id_veiculo <>20000; (seleciona todos)
+
+delete from veiculos WHERE id_veiculo = 4; (exclui)
+ 
+update veiculos set modelo="civic" where id_veiculo= 5; (muda o nome)
+
+insert into veiculos values (3, "fiesta", 19000); (colocar de volta na tabela)
+
+insert into vendas value (CURDATE(),3, 4,3);
+
+select * from vedas; (ver todas as vendas
+
+insert into vendedores(nome) values 
+
++------------+--------+----------+
+| id_veiculo | modelo | preco    |
++------------+--------+----------+
+|          1 | Palio  |  9000.00 |
+|          2 | Gol    | 17000.00 |
+|          3 | Fiesta | 19000.00 |
+|          4 | Celta  | 29000.00 |
+|          5 | Palio  |  9000.00 |
+|          6 | Gol    | 17000.00 |
+|          7 | Fiesta | 19000.00 |
+|          8 | Celta  | 29000.00 |
++------------+--------+----------+
