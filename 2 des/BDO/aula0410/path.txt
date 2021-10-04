@@ -1,0 +1,6 @@
+C:/Users/Aluno/Desktop/aula0410/path.txt
+C:/Users/Aluno/Desktop/aula0410/clientes.csv
+C:/Users/Aluno/Desktop/aula0410/entregadores.csv
+C:/Users/Aluno/Desktop/aula0410/produtos.csv
+source C:/Users/Aluno/Desktop/aula0410/script.sql
+
