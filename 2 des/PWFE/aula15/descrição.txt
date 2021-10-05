@@ -1,0 +1,15 @@
+{
+"id": 141,
+"titulo": "Biblia",
+"autor": "Jesus",
+"editora": "Os Apostolos",
+"idioma": "TODOS",
+"urlImagem": "https://m.media-amazon.com/images/I/618iHJVMh4L.jpg",
+"lancamento": "0000-00-00T03:00:00.000+00:00",
+"numeroPaginas": 950,
+"estoque": 10,
+"preco": 10.3
+}
+
+
+id 141~160
