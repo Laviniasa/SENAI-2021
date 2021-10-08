@@ -1,0 +1,45 @@
+import React from 'react';
+import { View, Text, TouchableOpacity } from 'react-native';
+
+import styles from './Style.js'
+
+export default function App() { 
+  const restaurantes = [
+    {
+      nome:"De quem é a famosa frase “Penso, logo existo”?",
+      nota:""
+    },
+    {
+      nome:" Platão",
+      nota:"A"
+    },
+    {
+      nome:"Galileu Galilei",
+      nota:"B"
+    },
+    {
+      nome:"Descartes",
+      nota:"C"
+    },
+    {
+      nome:" Sócrates",
+      nota:"D"
+    }
+  ];
+  return (
+    <View style={styles.container}>
+
+      {
+        restaurantes.map(item => {
+          return (
+            <TouchableOpacity style={styles.card}>
+              <Text>{item.nome}</Text>
+              <Text>{item.nota}</Text>
+             </TouchableOpacity>
+          )
+        })
+      }
+    </View>
+    );
+  }
+ 
