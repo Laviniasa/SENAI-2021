@@ -309,6 +309,7 @@
     background-size: cover;
     background-position: center;
     background-color: #cccccc;
+   background-repeat: no-repeat;
     display: table;
     width: 100%;
 }
@@ -370,14 +371,25 @@
 /* End HIre Us Area */
 /* Start Iconbox Area
 ==================================================*/
-.icon-box-img-1 {background-image: url(../img/camil.png);}
-.icon-box-img-2 {background-image: url(../img/anamaria.png);}
-.icon-box-img-3 {background-image: url(../img/tody.png);}
-.icon-box-img-3 {background-image: url(../img/nescau.png);}
-
-
-.slider-area>img{
-    
+.icon-box-img-1 {
+    width:480px;
+    height:140px;
+}
+.icon-box-img-2 {
+    width:480px;
+    height:140px;
+}
+.icon-box-img-3 {
+    width:480px;
+    height:140px;
+}
+.icon-box-img-4 {
+    width:480px;
+    height:140px;
+}
+.icon-box-img-5 {
+    width:480px;
+    height:140px;
 }
 
 .single-icon-box {
@@ -400,12 +412,17 @@
     opacity: .9;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     color: #fff;
-    z-index: -1;
+    z-index: 1;
     padding: 20px 30px 30px 30px;
     -webkit-transition: .6s;
     transition: .6s;
     cursor: pointer;
 }
+
+.single-image-box {
+    z-index: 0;
+}
+
 .icon-box-content:hover {
     top: 0;
 }
