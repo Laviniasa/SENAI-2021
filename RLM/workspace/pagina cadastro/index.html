@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>RML</title>
+        <link href="style.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../elegant/img/img2/folha2.png">
+        
+    </head>
+    
+    <body>
+        <form>
+            <h3>Entrar</h3>
+            <input id="email" type="text" name="email" placeholder="email..." />
+            <input type="password" id="senha" name="senha" placeholder="senha..."/>
+            <input type="submit" name="acao" value="Enviar"/>
+        </form>
+        <script>
+                var senha = document.getElementById('senha').value;
+                var cpf = document.getElementById('email').value;
+                
+                var url = "http://ip:8080/rmlback/clientes?email=" + cpf + "&senha=" + senha;
+
+                fetch(url)
+                .then(response => { return resp.json() })
+                .then(data => {
+                    console.log(data);
+                    if(data.id_cliente > 0) {
+                        //vai para o dashboard
+                    }else {
+                        //exibe mensagem de usuário ou senha inválidos
+                    }
+                })
+                .catch(error => {
+                    console.log(error);
+                })
+        </script>
+    </body>
+</html>
