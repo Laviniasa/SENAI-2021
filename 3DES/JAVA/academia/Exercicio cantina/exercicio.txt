@@ -1,0 +1,11 @@
+Vocês terão que fazer um back-end para catalogar as dividas das pessoas que passaram por uma cantina
+O script está na pasta e apenas execute ele em seu 'phpmyadmin' ou 'terminal mysql', agora so começar a programar
+
+Metodos obrigatorios:
+	Get, Post
+Metodos com baixa prioridade:
+	Delete, Update
+
+não tenho preferencia com nomes, apenas usem a criatividade.
+
+boa sorte a todos.
