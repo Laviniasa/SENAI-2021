@@ -1,0 +1,5 @@
+CREATE TABLE irpf(
+    Id_irpf INT  NOT NULL,
+    salario DECIMAL NOT NULL,
+    aliquota FLOAT
+)
