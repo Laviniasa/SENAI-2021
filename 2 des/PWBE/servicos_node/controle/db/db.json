@@ -1,0 +1,7 @@
+{
+    "mysql":{
+        "user":"root",
+        "host":"localhost",
+        "database":"empresa"
+    }
+}
