@@ -1,0 +1,10 @@
+drop database if exists empresa;
+create database empresa;
+use empresa;
+
+create table servicos(
+    id integer not null primary key auto_increment,
+    prestador varchar(256) not null,
+    val_hora decimal(6,2) not null,
+    horas_trabalhadas decimal(6,2) not null
+);
