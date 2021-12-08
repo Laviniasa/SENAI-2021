@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>msg</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/nova-mensagem.png">
+</head>
+<body>
+    <main class="cards">
+        <section class="card contact">
+            <div class="icon">
+                <img src="assets/selecionando.png" alt="Contact us.">
+            </div>
+            <h3>Tipo</h3>
+            <!-- O segundo valor estará selecionado inicialmente -->
+            <select name="selecione">
+                <option value="valor1">Normal</option>
+                <option value="valor2" >Importante</option>
+                <option value="valor3">Urgente</option>
+                <option value="valor2" selected>selecione</option>
+            </select>
+            <button>Próximo</button>
+        </section>
+        <section class="card shop">
+            <div class="icon">
+                <img src="assets/bubble-chat.png" alt="Shop here.">
+            </div>
+            <h3>mensagem</h3>
+            <input type="text" name="Nome" size="40" /> 
+            <button>ok</button>
+        </section>
+    </section>
+    <section class="card shop">
+        <div class="icon">
+            <img src="assets/enviei.png" alt="Shop here.">
+        </div>
+        <h3>Link de Destino</h3>
+        <input type="text" name="Nome" size="40" /> 
+        <button>ok</button>
+    </section>
+        <section class="card about">
+            <div class="icon">
+                <img src="assets/marca-de-verificacao.png" alt="About us.">
+            </div>
+            <h3>Tudo certo?</h3>
+            <button>Enviar</button>
+        </section>
+    </main>
+</body>
+</html>
