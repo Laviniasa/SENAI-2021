@@ -1,25 +1,50 @@
 const { Model, DataTypes } = require('sequelize');
 
 class Localizacao extends Model {
-    static init(
-        {
-            coordenadas:{
-                type: DataTypes.INTERGER,
-            }
+    static init(datacon) {
+        super.init(
+            {
+                coordenadas: {
+                    type: DataTypes.STRING(25),
+                    allowNull: false,
+                },
+                id_user: {
+                    type: DataTypes.INTEGER,
+                    allowNull: false,
+                    references: {
+                        model: 'usuarios',
+                        key: 'id',
+                    }
+                },
+                id_alerta: {
+                    type: DataTypes.INTEGER,
+                    allowNull: false,
+                    references: {
+                        model: 'alertas',
+                        key: 'id',
+                    }
+                },
+                ativo: {
+                    type: DataTypes.BOOLEAN,
+                    allowNull: false,
+                }
             },
-            id_user,
-           
-            },
-            id_alerta:{
-                
+            {
+                sequelize: datacon,
+                tableName: 'localizacoes',
+                modelName: 'localizacao',
             }
-            horario,
-            ativo,
-            
-        {
-            sequelize: datacon,
-            tableName: 'localizacoes',
-            modelName: 'localizacao',
-        }
-    )
+        );
+    }
+
+    static associate(models) {
+        Localizacao.belongsTo(models.usuario,  { foreignKey: 'id_alerta'});
+        Localizacao.belongsTo(models.alerta,  { foreignKey: 'id_alerta'});
+
+    }
 }
+
+module.exports = Localizacao;
+
+
+
