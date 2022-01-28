@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifooge</title>
+    <link rel="shortcut icon" href="../assets/scape.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregarAlertas()">
+    <div class="map">
+
+    </div>
+
+    <select id="alerta" hidden></select> 
+    <button id="cadastrar" onclick="cadastro()" hidden> Cadastrar Alerta</button> 
+</body>
+<script src="script.js"></script>
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaXxoy5hT3yqTpF85JVG_7xmaC4obZveQ
+      &callback=initMap&v=weekly"
+      async
+    ></script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifooge</title>
+    <link rel="shortcut icon" href="../assets/scape.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../assets/logo2-removebg-preview.png"class="avatar">
+        </header>
+        <main>
+            <img src="../assets/logo.png"class="avatar">
+            <form>
+                <input type="text" placeholder = "Email" id="email">
+                <input type="password" placeholder="senha" id="senha">
+                <input type="file" id= "foto" hidden>
+                <img src="../assets/camera.png" alt="Camera" id="camera" width="32" hidden>
+                
+                <button id="login" onclick="conectar()">Login</button>
+                <a onclick="cadastrar()">Cadastrar-se</a>
+
+            </form>
+        </main>
+    </div>
+</body>
+<script src="../global/md5.js"></script>
+<script src="./script.js"></script>
+</html>
