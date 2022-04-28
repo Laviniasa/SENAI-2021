@@ -1,0 +1,21 @@
+02)
+
+select num_sol from itenssolicitacao where valor = (select max(valor) from itenssolicitacao);
+
+
+select f.nome_func from funcionarios f inner join solicitacao s on f.cod_func = s.cod_func
+inner join itenssolicitacao i on s.num_sol = i.num_sol
+where valor = (select max(valor) from itenssolicitacao);
+
+
+03)
+
+SELECT DISTINCT dpto.Nome_Depto FROM `itenssolicitacao` iten inner JOIN produtos prod on iten.Cod_Produto=prod.cod_produto INNER JOIN solicitacao sol on sol.Num_Sol=iten.Num_Sol INNER JOIN departamentos dpto on dpto.Cod_Depto=sol.Cod_Depto WHERE prod.Nome_produto="parafuso" OR prod.Nome_produto="difusor";
+
+04)
+
+
+SELECT DISTINCT prod.Nome_produto FROM `itenssolicitacao` iten
+INNER JOIN solicitacao sol ON sol.Num_Sol=iten.Num_Sol
+inner JOIN produtos prod on prod.Cod_Produto=iten.Cod_Produto
+WHERE sol.Data_sol BETWEEN '2018-02-01' AND '2018-02-28'
