@@ -77,32 +77,33 @@ body {
 .botao {
     display: flex;
     flex-direction: row;
+    margin-left: 20%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
 }
 
-.apagada {
-    background-image: url('../assets/estrela.png');
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-  }
-  
-  .destaque {
-    background-image: url('../assets/estrela_branca.png');
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-  }
+.textarea{
+    width: 900px;
+    height: 150px;
+    border-radius: 5px;
+    border:solid #7b28acbe;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
 
+}
 
 .card{
-    height: 400px;
-    width: 200px;
+    height: 600px;
+    width: 20%;
     display: flex;
-    margin-left: 23%;
-    margin-right: 10%;
+    /* margin-left: 23%;
+    margin-right: 10%; */
     margin-top: 5%;
-    background: rgb(255, 246, 246);
+    /* background: rgb(255, 246, 246); */
+    border:solid #7b28acbe;
     transition: all 300ms;
+    border-radius: 5px;
        }
        
     .card:hover {
@@ -111,19 +112,27 @@ body {
     }
 
 .quadrado2{
-    height: 400px;
-    width: 400px;
-    display: flex;
-    align-self: center;
+    height: 600px;
+    width: 40%;
+    border-radius: 5px;
+    /* display: flex;
+    align-self: center; */
     /* background-color: rgba(255, 255, 255, 0.671); */
     background-color: transparent;
-    border: solid rgb(255, 255, 255);
+    border: solid #7b28acbe;
     border-width: 4px;
-    margin-left: 50%;
-    margin-right: 50%;
-    margin-top: -22%;
+    margin-top: 90px;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    /* margin-top: -32.5%; */
 }
 
+.org{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
 
 .input{
     height: 100px;
@@ -160,8 +169,8 @@ button {
     color: var(--green);
     box-shadow: inset 0 0 10px rgba(186, 67, 255, 0.4), 0 0 9px 3px rgba(182, 33, 241, 0.1);
     border-width: 4px;
-    margin-left: 45%;
-    margin-right: 20%;
+    margin-left: 50%;
+    margin-right: 30%;
     margin-top: 10%;
    }
    
@@ -187,7 +196,7 @@ button {
 
 /* banner */
 .banner {
-    background-image: url('../assets/livro.jpg');
+    background-image: url('../assets/capa2\ \(2\).jpg');
     background-size: cover;
     background-position: center center;
     color: white;
