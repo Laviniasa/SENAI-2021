@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velaris - escrever</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../global/style.css">
+</head>
+
+<body>
+
+
+    <div id="nav" class="nav">
+        <img class="nav__logo" src="../assets/LOGO.png" alt="" />
+        <a href="https://front.codes/" class="logo" target="_blank">
+        </a>
+        <div class="pesquisar">
+            <input type="text" class="teste" id="busca" onkeyup="buscar()" placeholder="Pesquisar Livro">
+            <img src="../assets/lupa (2).png" class="lupa" alt="">
+        </div>
+        <div class="sec-center">
+            <input class="dropdown" type="checkbox" id="dropdown" name="dropdown" />
+            <label class="for-dropdown" for="dropdown">Menu <i class="uil uil-arrow-down"></i></label>
+            <div class="section-dropdown">
+                <a href="#">ESCREVA<i class="uil uil-arrow-right"></i></a>
+
+                <a href="#">CONTINUE LENDO <i class="uil uil-arrow-right"></i></a>
+                <input class="dropdown-sub" type="checkbox" id="dropdown-sub" name="dropdown-sub" />
+                <label class="for-dropdown-sub" for="dropdown-sub">PERFIL<i class="uil uil-plus"></i></label>
+                <div class="section-dropdown-sub">
+                    <a href="#">INFO PERFIL<i class="uil uil-arrow-right"></i></a>
+                    <a href="#">SAIR<i class="uil uil-arrow-right"></i></a>
+                    <!-- <a href="#">AZUL<i class="uil uil-arrow-right"></i></a>
+                    <a href="#">AMARELO<i class="uil uil-arrow-right"></i></a>
+                    <a href="#">VERMELHO<i class="uil uil-arrow-right"></i></a>
+                    <a href="#">VERDE<i class="uil uil-arrow-right"></i></a> -->
+                    <a id="#000" onclick="trocarcor(this.id)">Azul</a>
+                    <a id=" #fff" onclick="trocarcor(this.id)">Verde</a>
+                    <!-- <a id="linear-gradient(180deg, #fff, #000000)" onclick="trocarcor(this.id)">Vermelho</a>
+                    <a id="linear-gradient(180deg, #5b1186be, #000000)" onclick="trocarcor(this.id)">Vermelho</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="banner">
+
+        <div class="banner__contents">
+            <h1 class="banner__title">ESCREVA SEU LIVRO!</h1>
+            <div class="banner__buttons">
+
+            </div>
+            <h1 class="banner__description">
+                Aqui é onde a magia acontece! Escreva seu livro abaixo,
+                <br>
+                e faça a imaginação de alguem! Seja feliz!
+            </h1>
+        </div>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </header>
+    <div class="cores">
+        <h6 id="#006400" onclick="trocarcor(this.id)">Azul</h6>
+        <h6 id="linear-gradient(180deg, #000080, #fff)" onclick="trocarcor(this.id)">Verde</h6>
+        <h6 id="linear-gradient(180deg, #fff, #000000)" onclick="trocarcor(this.id)">Vermelho</h6>
+        <h6 id="linear-gradient(180deg, #5b1186be, #000000)" onclick="trocarcor(this.id)">Vermelho</h6>
+    </div>
+    <main>
+        <div class="adicionar-livro">
+            <img class="capaLivro" src="" alt="">
+            <div>
+                <img class="upload-cape" src="../assets/camera (2).png" alt="Camera" id="camera" width="32"
+                    onClick="handleClickUpload()">
+                <input type="file" name="imagereader" accept="image/png, image/jpeg" id="book-image" hidden>
+            </div>
+        </div>
+        <div class="meio">
+            <input type="text" id="nome-livro" placeholder="Book Name">
+            <input id="genero" type="text" placeholder="genero" />
+            <input id="captulo-nome" type="text" placeholder="chapter name" />
+            <button id="public">Publicar</button>
+        </div>
+        <div class="meio">
+            <textarea id="texto-captulo"></textarea>
+        </div>
+    </main>
+    <footer>
+        <img src="../assets/insta.png" onclick="navegar()" alt="">
+        <img src="../assets/facebook.png" onclick="navegarum()" alt="">
+        <img src="../assets/localiza.png" onclick="navegardois()" alt="">
+        <img src="../assets/telefone.png" onclick="navegartres()" alt="">
+        <img src="../assets/mensagem.png" onclick="navegarquatro()" alt="">
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>

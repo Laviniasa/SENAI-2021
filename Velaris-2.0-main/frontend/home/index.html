@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velaris Books</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- <input class="dark-light" type="checkbox" id="dark-light" name="dark-light"/>
+    <label for="dark-light"></label>
+
+    <div class="light-back"></div>  -->
+
+    <!-- nav -->
+    <div id="nav" class="nav">
+        <img class="nav__logo" src="../assets/LOGO.png" alt="" />
+        <a href="https://front.codes/" class="logo" target="_blank">
+        </a>
+        <div class="pesquisar">
+            <input type="text" class="teste" id="busca" onkeyup="buscar()" placeholder="Pesquisar Livro">
+            <img src="../assets/lupa (2).png" class="lupa" alt="">
+        </div>
+        <div class="sec-center">
+            <input class="dropdown" type="checkbox" id="dropdown" name="dropdown" />
+            <label class="for-dropdown" for="dropdown">Menu <i class="uil uil-arrow-down"></i></label>
+            <div class="section-dropdown">
+                <p onclick="redirecionar()">ESCREVA<i class="uil uil-arrow-right"></i></p>
+                <p onclick="redireciona()">CONTINUE LENDO <i class="uil uil-arrow-right"></i></p>
+                <input class="dropdown-sub" type="checkbox" id="dropdown-sub" name="dropdown-sub" />
+                <label class="for-dropdown-sub" for="dropdown-sub">PERFIL<i class="uil uil-plus"></i></label>
+                <div class="section-dropdown-sub">
+                    <p onclick="red()">INFO PERFIL<i class="uil uil-arrow-right"></i></p>
+                    <p onclick="handleLogoutClick()">SAIR<i class="uil uil-arrow-right"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <header class="banner">
+
+        <div class="banner__contents">
+            <h1 class="banner__title">BEM VINDO!</h1>
+            <div class="banner__buttons">
+
+            </div>
+            <h1 class="banner__description">
+                Velaris books, onde você encontra todo tipo de conteúdo para todas as idades, venha e aproveite com uma
+                leitura deslumbrante cheia de fantasia
+            </h1>
+        </div>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </header>
+
+    <!-- Netflix Originals -->
+    <div class="row">
+        <h2>Romance</h2>
+        <div class="row__posters">
+            <img class="row__poster row__posterLarge" src="" id="capa" alt="">
+            <img class="row__poster row__posterLarge" src="" id="capa" alt="">
+            <img class="row__poster row__posterLarge" src="" id="capa" alt="">
+            <img class="row__poster row__posterLarge" src="" id="capa" alt="">
+            <img class="row__poster row__posterLarge" src="" id="capa" alt="">
+            <img class="row__poster row__posterLarge" src="" id="capa" alt="">
+            <img class="row__poster row__posterLarge" src="" id="capa" alt="">
+            <img class="row__poster row__posterLarge" src="" id="capa" alt="">
+        </div>
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" id="capa"
+                        alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" id="capa"
+                        alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" id="capa"
+                        alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div> -->
+    </div>
+
+    <!-- Trending Now -->
+    <div class="row">
+        <h2>Ficção</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="../assets/small-movie1.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie2.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie3.jpg" alt="" />
+            <img class="row__poster" src="../assets/small-movie4.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie5.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie6.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie7.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie8.jpg" alt="" />
+        </div>
+    </div>
+
+    <!-- Top Rated -->
+    <div class="row">
+        <h2>terror</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="../assets/small-movie1.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie2.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie3.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie4.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie5.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie6.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie7.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie8.jpg" alt="" />
+        </div>
+    </div>
+
+    <!-- Action Movies -->
+    <div class="row">
+        <h2>Action Movies</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="../assets/small-movie1.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie2.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie3.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie4.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie5.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie6.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie7.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie8.jpg" alt="" />
+        </div>
+    </div>
+
+    <!-- Comedy Movies -->
+    <div class="row">
+        <h2>Comedy Movies</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="../assets/small-movie1.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie2.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie3.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie4.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie5.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie6.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie7.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie8.jpg" alt="" />
+        </div>
+    </div>
+
+    <!-- Horror Movies -->
+    <div class="row">
+        <h2>Horror Movies</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="../assets/small-movie1.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie2.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie3.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie4.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie5.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie6.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie7.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie8.jpg" alt="" />
+        </div>
+    </div>
+
+    <!-- Romance Movies -->
+    <div class="row">
+        <h2>Romance Movies</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="../assets/small-movie1.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie2.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie3.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie4.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie5.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie6.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie7.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie8.jpg" alt="" />
+        </div>
+    </div>
+
+    <!-- Documentaries -->
+    <div class="row">
+        <h2>Documentaries</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="../assets/small-movie1.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie2.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie3.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie4.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie5.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie6.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie7.jpg" alt="" />
+
+            <img class="row__poster" src="../assets/small-movie8.jpg" alt="" />
+        </div>
+    </div>
+
+    <script>
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 100) {
+                nav.classList.add('nav__black');
+            } else {
+                nav.classList.remove('nav__black');
+            }
+        });
+    </script>
+    <footer>
+        <img src="../assets/insta.png" onclick="navegar()" alt="">
+        <img src="../assets/facebook.png" onclick="navegarum()" alt="">
+        <img src="../assets/localiza.png" onclick="navegardois()" alt="">
+        <img src="../assets/telefone.png" onclick="navegartres()" alt="">
+        <img src="../assets/mensagem.png" onclick="navegarquatro()" alt="">
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
