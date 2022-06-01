@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="nav" class="nav">
+        <img class="nav__logo" src="../assets/LOGO.png" alt="" />
+        <a href="https://front.codes/" class="logo" target="_blank">
+        </a>
+        <!-- <div class="pesquisar">
+            <input type="text" class="teste" id="busca" onkeyup="buscar()" placeholder="Pesquisar Livro">
+            <img src="../assets/lupa (2).png" class="lupa" alt="">
+        </div> -->
+        <div class="sec-center">
+            <input class="dropdown" type="checkbox" id="dropdown" name="dropdown" />
+            <label class="for-dropdown" for="dropdown">Menu <i class="uil uil-arrow-down"></i></label>
+            <div class="section-dropdown">
+                <p onclick="home()">HOME<i class="uil uil-arrow-right"></i></p>
+                <p onclick="escreva()">ESCREVA<i class="uil uil-arrow-right"></i></p>
+                <!-- <p href="#">INFO PERFIL<i class="uil uil-arrow-right"></i></p> -->
+                <p onclick="handleLogoutClick()">SAIR<i class="uil uil-arrow-right"></i></p>
+                <input class="dropdown-sub" type="checkbox" id="dropdown-sub" name="dropdown-sub" />
+                <label class="for-dropdown-sub" for="dropdown-sub">OPÇÕES DE ACESSIBILIDADE<i class="uil uil-plus"></i></label>
+                <div class="section-dropdown-sub">
+                    <p id="#000" onclick="trocarcor(this.id)">Escuro</p>
+                    <p id=" #FFFAF0" onclick="trocarcor(this.id)">Claro</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <header class="banner">
+    
+        <div class="banner__contents">
+            <h1 class="banner__title">SEU PERFIL</h1>
+            <div class="banner__buttons">
+    
+            </div>
+            <h1 class="banner__description">
+                Edite suas informações importanes aqui.
+            </h1>
+        </div>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </header>
+    <div class="main">
+        <br>
+        <div class="perf">
+            <img src="../assets/do-utilizador.png" alt="Perfil Books" id="imgUser" width="128">
+        </div>
+        <input type="file" id="foto" hidden>
+        <img src="../assets/camera (1).png" width="32px" class="margem" alt="" id="camera">
+        <input class="infos" type="text" id="nomeUser" placeholder="Nome...">
+        <input class="infos" type="text" id="emailUser" placeholder="Email...">
+        <input class="infos" type="password" id="pswUser" placeholder="Senha...">
+        <input type="file" id="foto" hidden>
+        <!-- <img src="../assets/camera (1).png" alt="Camera" id="camera" width="32" hidden> -->
+        <br>
+        <img src="../assets/atualizar.png" style="margin-bottom:20px;" onclick="atualizarDados()">ATUALIZAR</img>
+    </div>
+    <div class="meio">
+        <div class="h3">
+            <h3>RECOMENDADOS POR ESSA PESSOA</h3>
+        </div>
+        <div class="publi">
+            <div class="livro" id="ex1">
+                <img src="" class="capa" alt="">
+            </div>
+            <div class="livro" id="ex2">
+                <img src="" class="capa" alt="">
+            </div>
+            <div class="livro" id="ex3">
+                <img src="" class="capa" alt="">
+            </div>
+        </div>
+        <div class="h3">
+            <h3>ESCRITOS POR ESSA PESSOA</h3>
+        </div>
+        <div class="publi">
+            <div class="livro" id="ex4">
+                <img src="" class="capa" alt="">
+            </div>
+            <div class="livro" id="ex5">
+                <img src="" class="capa" alt="">
+            </div>
+            <div class="livro" id="ex6">
+                <img src="" class="capa" alt="">
+            </div>
+        </div>
+        <div class="h3">
+            <h3>CONTINUE ESCREVENDO</h3>
+        </div>
+        
+        <div class="publi">
+            <div class="livro" id="ex7">
+                <img src="" class="capa" alt="">
+            </div>
+            <div class="livro" id="ex8">
+                <img src="" class="capa" alt="">
+            </div>
+            <div class="livro" id="ex9">
+                <img src="" class="capa" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

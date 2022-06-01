@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velaris Books</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- <input class="dark-light" type="checkbox" id="dark-light" name="dark-light"/>
+    <label for="dark-light"></label>
+    <div class="light-back"></div>  -->
+    <!-- nav -->
+    <div id="nav" class="nav">
+        <img class="nav__logo" src="../assets/LOGO.png" alt="" />
+        <a href="https://front.codes/" class="logo" target="_blank">
+        </a>
+        <div class="pesquisar">
+            <input type="text" class="teste" id="busca" onkeyup="buscar()" placeholder="Pesquisar Livro">
+            <img src="../assets/lupa (2).png" class="lupa" alt="">
+        </div>
+        <div class="sec-center">
+            <input class="dropdown" type="checkbox" id="dropdown" name="dropdown" />
+            <label class="for-dropdown" for="dropdown">Menu <i class="uil uil-arrow-down"></i></label>
+            <div class="section-dropdown">
+                <p onclick="redirecionar()">ESCREVA<i class="uil uil-arrow-right"></i></p>
+                <p onclick="redireciona()">CONTINUE LENDO <i class="uil uil-arrow-right"></i></p>
+                <input class="dropdown-sub" type="checkbox" id="dropdown-sub" name="dropdown-sub" />
+                <label class="for-dropdown-sub" for="dropdown-sub">PERFIL<i class="uil uil-plus"></i></label>
+                <div class="section-dropdown-sub">
+                    <p onclick="red()">INFO PERFIL<i class="uil uil-arrow-right"></i></p>
+                    <p onclick="handleLogoutClick()">SAIR<i class="uil uil-arrow-right"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="org">
+        <div class="card" >
+            <img src="../assets/anne_frank.jpg" id="card_img" alt="">
+       </div>
+       <div class="quadrado2">
+           <h2>
+           </h2>
+           <h2>
+           </h2>
+           <h4>
+           </h4>
+
+        </div>
+    </div>
+    <button onclick="showModal()"> Leia </button>
+    <div class="modal" hidden >
+        <div class="form-modal">
+            <span onclick="closeModal()" id="closeButton">
+                <img src="../assets/letra-x.png" alt="Fechar">
+            </span>
+            <div class="texto" id="divContent">
+                <p></p>
+            </div>
+
+            <!-- <select id="alerta"> -->
+            <!-- </select>
+            <button id="cadastrar" onclick="cadastro()">Cadastrar Alerta</button> -->
+        </div>
+    </div>
+    
+        <footer>
+            <img src="../assets/insta.png" onclick="navegar()" alt="">
+            <img src="../assets/facebook.png" onclick="navegarum()" alt="">
+            <img src="../assets/localiza.png" onclick="navegardois()" alt="">
+            <img src="../assets/telefone.png" onclick="navegartres()" alt="">
+            <img src="../assets/mensagem.png" onclick="navegarquatro()" alt="">
+        </footer>
+    
+</body>
+<script src="./script.js"></script>
+</html>

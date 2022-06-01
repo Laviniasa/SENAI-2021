@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Bem vindo(a) de volta!</h2>
+                <!-- <p class="description description-primary">Para se manter conectado conosco</p> -->
+                <!-- <p class="description description-primary">por favor faça login em sua conta.</p> -->
+                <!-- <button id="signin" class="btn btn-primary">Conectar</button> -->
+                <p class="description description-second"></p>
+                <div class="form">
+                
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" id="email-login" placeholder="Email">
+                    </label>
+                
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" id="senha-login" placeholder="Senha">
+                    </label>
+                
+                    <a class="password" href="#">Esqueceu sua senha?</a>
+                    <button class="btn btn-second" id="login" onclick="login()">Entrar</button>
+                </div> 
+                
+            </div>    
+            <!-- CRIAR CONTA (CADASTRAR) -->
+            <div class="second-column">
+                <h2 class="title title-second">Criar conta</h2>
+                
+                <p class="description description-second">Use seu email para conectar-se:</p>
+                <div class="form">
+                    <label class="label-input-dois" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" id="nome" placeholder="Nome">
+                    </label>
+                    
+                    <label class="label-input-dois" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" id="email" placeholder="Email">
+                    </label>
+                    
+                    <label class="label-input-dois" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" id="senha" placeholder="Senha">
+                    </label>
+                    <button class="btn btn-tres" id="signin" onclick="cadastro()">Cadastrar</button>        
+                </div>
+            </div>
+            <!-- FIM DO CADASTRAR -->
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

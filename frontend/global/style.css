@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.velaris {
+    width: 4%;
+}
+
+.img {
+    filter: invert(100%);
+}
+
+.alinhar {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(80, 80, 80) !important;
+    border: 2px solid #7b28acbe;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 10px;
+}
+
+.redes {
+    margin-top: 50px;
+    width: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #7b28acbe;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(136, 136, 136);
+    cursor: pointer;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(10, 10, 10), purple);
+    height: 8vh;
+}
+
+main {
+    background: url("bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .velaris {
+        width: 10%;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-image: linear-gradient(to bottom, purple, rgb(10, 10, 10));
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.menu {
+    margin-right: 15px;
+    filter: invert(100%);
+}
