@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velaris Books</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- nav -->
+    <div id="nav" class="nav">
+        <img class="nav__logo" src="../assets/LOGO.png" alt="" />
+        <a href="https://front.codes/" class="logo" target="_blank">
+        </a>
+        <div class="pesquisar">
+            <input type="text" class="teste" id="busca" onkeyup="buscar()" placeholder="Pesquisar Livro">
+            <img src="../assets/lupa (2).png" class="lupa" alt="">
+        </div>
+        <div class="sec-center">
+            <input class="dropdown" type="checkbox" id="dropdown" name="dropdown" />
+            <label class="for-dropdown" for="dropdown">Menu <i class="uil uil-arrow-down"></i></label>
+            <div class="section-dropdown">
+                <p onclick="redirecionar()">ESCREVA<i class="uil uil-arrow-right"></i></p>
+                <p onclick="redireciona()">CONTINUE LENDO <i class="uil uil-arrow-right"></i></p>
+                <input class="dropdown-sub" type="checkbox" id="dropdown-sub" name="dropdown-sub" />
+                <label class="for-dropdown-sub" for="dropdown-sub">PERFIL<i class="uil uil-plus"></i></label>
+                <div class="section-dropdown-sub">
+                    <p onclick="red()">INFO PERFIL<i class="uil uil-arrow-right"></i></p>
+                    <p onclick="handleLogoutClick()">SAIR<i class="uil uil-arrow-right"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <!-- <header class="banner">
+
+        <div class="banner__contents">
+            <h1 class="banner__title"></h1>
+            <div class="banner__buttons">
+
+            </div>
+            <h1 class="banner__description">
+
+            </h1>
+        </div>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </header> -->
+
+</body>
+<script src="./script.js"></script>
+
+</html>
