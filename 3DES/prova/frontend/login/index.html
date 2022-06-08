@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary"></h2>
+                <!-- <p class="description description-primary">Para se manter conectado conosco</p> -->
+                <!-- <p class="description description-primary">por favor faça login em sua conta.</p> -->
+                <!-- <button id="signin" class="btn btn-primary">Conectar</button> -->
+                <p class="description description-second"></p>
+                <div class="form">
+                
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" id="email-login" placeholder="">
+                    </label>
+                
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <form name='form'> 
+                        <input class="textview" name='textview' type="password" id="senha-login" placeholder="Senha">
+                        </form>
+                    </label>
+                
+                    
+                    
+
+                    <div>
+                        <tr>
+                            <td>
+                                <input type="button" class='button' onclick="insert(1)" value="1">
+                                <input type="button" class='button' onclick="insert(2)" value="2">
+                                <input type="button" class='button' onclick="insert(3)" value="3">
+                            </td>
+                        </tr>
+                       
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <input type="button" class='button' onclick="insert(4)" value="4">
+                                <input type="button" class='button' onclick="insert(5)" value="5">
+                                <input type="button" class='button' onclick="insert(6)" value="6">
+                            </td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <input type="button" class='button' onclick="insert(7)" value="7">
+                                <input type="button" class='button' onclick="insert(8)" value="8">
+                                <input type="button" class='button' onclick="insert(9)" value="9">
+                            </td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <input type="button" class='button' onclick='c()' value="C">
+                                <input type="button" class='button' onclick="insert(0)" value="0">
+                                <button type="button" class="button" id="login" onclick="login()"><img src="../assets/enter.png" alt=""></button>
+                            </td>
+                        </tr>
+                    </div>
+                </div> 
+                
+            </div>    
+            
+            
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
